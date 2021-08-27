@@ -1,0 +1,20 @@
+.card {
+    width: 100%;
+    position: relative;
+
+    > img {
+      width: 100%;
+    }
+
+    .shopping {
+      position: absolute;
+      right: 6%;
+      top: 75%;
+      width: 40px;
+
+      > img {
+        width: 100%;
+      }
+    }
+  }
+

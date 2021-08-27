@@ -1,0 +1,35 @@
+* body {
+    margin: 0;
+    padding: 0;
+}
+.home-container {
+    height: 100vh;
+    position: relative;
+    .title {
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        padding: 10px 0;
+        background-image: linear-gradient(to right, #eccfa2, #50271f);
+        z-index: 99;
+        >span{
+            width: 100%;
+            font-size: 30px;
+        }
+        >img{
+            padding-left: 50px;
+        }
+
+    }
+
+    .main {
+        width: 100%;
+        padding-top: 180px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(4, minmax(100px, 300px));
+        grid-gap: 20px;
+
+    }
+}
